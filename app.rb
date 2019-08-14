@@ -36,7 +36,7 @@ class App < Sinatra::Base
         @num1 + @num2
 
       when "subtract"
-        @num1 - @num2
+        ()@num1 - @num2).to_s
 
       when "divide"
           @num1 / @num2
