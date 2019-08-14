@@ -41,6 +41,6 @@ class App < Sinatra::Base
 
       when "multiply"
         @num1 * @num2
-      
+      end
     end
 end
